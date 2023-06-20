@@ -1,4 +1,4 @@
-import SunIcons from '@/components/icons/SunIcons';
+import SunIcon from '@/components/icons/SunIcon';
 const Navbar = () => {
   return (
     <header className='flex items-center space-x-2 mb-10'>
@@ -6,7 +6,7 @@ const Navbar = () => {
         
             <span className="uppercase text-white">Light</span>
             <button>
-                <SunIcons 
+                <SunIcon 
                 className='fill-white'
                 width={25}
                 />
