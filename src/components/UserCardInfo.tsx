@@ -20,8 +20,14 @@ function validateUrl(url: string) {
 const UserCardInfo = ({user}: Props) => {
   return (
     <article className="grid-areas rounded-xl bg-gray-800 p-4 text-white">
-        <div className="border-4 border-solid overflow-hidden sectionLogo grid h-24 w-24 place-content-center rounded-full bg-gray-200 p-1 mr-3 lg:mx-auto">
-            <Image src={user.avatar_url} width={96} height={96} alt={`profile img user ${user.name}`}/>
+        <div className="sectionLogo mr-3 grid h-24 w-24 place-content-center overflow-hidden rounded-full bg-gray-200 p-1 lg:mx-auto">
+            <Image 
+                src={user.avatar_url} 
+                width={96} 
+                height={96} 
+                alt={`profile img user ${user.name}`}
+                className="rounded-full"
+            />
             {/* <GithubLogo className="relative top-2 h-full w-full"/> */}
         </div> 
         <div className="sectionTitle">
