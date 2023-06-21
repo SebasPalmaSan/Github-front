@@ -18,9 +18,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className=''>
       <body className={robotoMono.className}>
-        <div className='px-4 grid place-content-center min-h-screen bg-gray-900'>
+        <div className='px-4 grid place-content-center min-h-screen dark:bg-gray-900 bg-gray-100'>
           <div className='sm:w-[500px] md:w-[600px] lg:w-[700px]'>
             <Navbar />
             {children}

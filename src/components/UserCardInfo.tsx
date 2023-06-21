@@ -19,7 +19,7 @@ function validateUrl(url: string) {
 
 const UserCardInfo = ({user}: Props) => {
   return (
-    <article className="grid-areas rounded-xl bg-gray-800 p-4 text-white">
+    <article className="grid-areas rounded-xl shadow-md dark:shadow-none bg-white dark:bg-gray-800 p-4 text-gray-700 dark:text-white">
         <div className="sectionLogo mr-3 grid h-24 w-24 place-content-center overflow-hidden rounded-full bg-gray-200 p-1 lg:mx-auto">
             <Image 
                 src={user.avatar_url} 
@@ -44,7 +44,7 @@ const UserCardInfo = ({user}: Props) => {
         <p className="sectionDescription mt-4 leading-loose">
             {user.bio ||'Sin user bio'}
         </p>
-        <div className="p-6 mt-4 sectionNumber flex justify-around bg-gray-900 rounded-xl text-center">
+        <div className="p-6 mt-4 sectionNumber flex justify-around bg-gray-200 dark:bg-gray-900 rounded-xl text-center">
             <article>
                 <p>Repos</p>
                 <p className="font-bold text-xl">{user.public_repos}</p>
@@ -62,7 +62,7 @@ const UserCardInfo = ({user}: Props) => {
             <article className="flex space-x-2">
                 <i>
                     <LocationIcon 
-                        className="h-full w-full fill-white" 
+                        className="h-full w-full dark:fill-white fill-gray-800" 
                         width={"1rem"}
                     />
                 </i>
@@ -71,7 +71,7 @@ const UserCardInfo = ({user}: Props) => {
             <article className="flex space-x-2">
                 <i>
                     <LinkIcon 
-                        className="h-full w-full fill-white" 
+                        className="h-full w-full dark:fill-white fill-gray-800" 
                         width={"1rem"} 
                     />
                 </i>
@@ -80,7 +80,7 @@ const UserCardInfo = ({user}: Props) => {
             <article className="flex space-x-2">
                 <i>
                     <TwitterIcon 
-                        className="h-full w-full fill-white" 
+                        className="h-full w-full dark:fill-white fill-gray-800" 
                         width={"1rem"}
                     />
                 </i>
@@ -89,7 +89,7 @@ const UserCardInfo = ({user}: Props) => {
             <article className="flex space-x-2">
                 <i>
                     <BuildingIcon 
-                        className="h-full w-full fill-white" 
+                        className="h-full w-full dark:fill-white fill-gray-800" 
                         width={"1rem"}
                     />
                 </i>
