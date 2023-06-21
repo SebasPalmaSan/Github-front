@@ -8,7 +8,10 @@ const initialThemeState = () => {
   if(localStorage.getItem('theme')) {
     return localStorage.getItem('theme') as 'light' | 'dark';
   }
-   return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  if(typeof window !== 'undefined'){
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+   return 'dark';
 };
 const Navbar = () => {
 
