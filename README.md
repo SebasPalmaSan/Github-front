@@ -2,8 +2,11 @@ Devfinder
 
 Realizado con NextJs, Typescript y Tailwind
 
-![Screens![Screenshot 2024-02-16 at 01-26-43 Search Repos](https://github.com/SebasPalmaSan/Github-front/assets/93328462/a949c243-95c1-410b-a4e6-49358077d467)
-hot 2024-02-16 at 01-26-52 Search Repos](https://github.com/SebasPalmaSan/Github-front/assets/93328462/bb54e972-8f15-4136-95ab-055f45846901)
+![Screenshot 2024-02-16 at 01-26-43 Search Repos](https://github.com/SebasPalmaSan/Github-front/assets/93328462/a6a9648d-fbe1-4ed4-9e20-c242e607f401)
+
+
+![Screenshot 2024-02-16 at 01-26-52 Search Repos](https://github.com/SebasPalmaSan/Github-front/assets/93328462/4a99b3b8-9407-4baf-813f-b34e7f66a83e)
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
