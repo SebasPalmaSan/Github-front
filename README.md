@@ -1,3 +1,10 @@
+Devfinder
+
+Realizado con NextJs, Typescript y Tailwind
+
+![Screens![Screenshot 2024-02-16 at 01-26-43 Search Repos](https://github.com/SebasPalmaSan/Github-front/assets/93328462/a949c243-95c1-410b-a4e6-49358077d467)
+hot 2024-02-16 at 01-26-52 Search Repos](https://github.com/SebasPalmaSan/Github-front/assets/93328462/bb54e972-8f15-4136-95ab-055f45846901)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
